@@ -76,9 +76,9 @@ def replace_line_endings(file_path):
 file_path = 'example.sh'  # Replace with your script file path
 replace_line_endings(file_path)
 
-for test in [10, 11, 12]:
-    for ID in [1, 2, 3, 4, 5]:
-        div = 0
-        generate_input(test, ID, div)
-        generate_script(test, ID, div)
-        replace_line_endings('scriptlm' + str(test) + '_' + str(ID) + '_logT' + '.sh')
+# for test in [10, 11, 12]:
+#     for ID in [1, 2, 3, 4, 5]:
+#         div = 0
+#         generate_input(test, ID, div)
+#         generate_script(test, ID, div)
+#         replace_line_endings('scriptlm' + str(test) + '_' + str(ID) + '_logT' + '.sh')
